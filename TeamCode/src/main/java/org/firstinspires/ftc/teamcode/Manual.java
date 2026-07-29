@@ -10,9 +10,9 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 @TeleOp(name = "Manual")
 public class Manual extends OpMode {
     public Mecanum mecanum = new Mecanum();
- //   public Yeeter yeeter = new Yeeter();
-  //  public AprilTag_9968 aTag = new AprilTag_9968();
- //   public PrisimColor led = new PrisimColor();
+    //   public Yeeter yeeter = new Yeeter();
+    //  public AprilTag_9968 aTag = new AprilTag_9968();
+    //   public PrisimColor led = new PrisimColor();
     public Intake intake = new Intake();
     public ElapsedTime timer = new ElapsedTime(ElapsedTime.Resolution.SECONDS);
 
@@ -32,10 +32,10 @@ public class Manual extends OpMode {
 
     public void init() {
         mecanum.init(hardwareMap);
-     //   aTag.init(hardwareMap);
-     //   yeeter.init(hardwareMap);
-      //  led.init(hardwareMap);
-     //   aTag.startStreaming();
+        //   aTag.init(hardwareMap);
+        //   yeeter.init(hardwareMap);
+        //  led.init(hardwareMap);
+        //   aTag.startStreaming();
         intake.init(hardwareMap);
     }
 
